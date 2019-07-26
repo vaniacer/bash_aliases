@@ -1,3 +1,9 @@
+#jboss
+alias js='./krupd jboss.start'
+alias jt='./krupd jboss.stop'
+alias jk='./krupd jboss.kill'
+alias jr='jt; js'
+
 #editors
 alias n='nano'
 alias g='gedit'
