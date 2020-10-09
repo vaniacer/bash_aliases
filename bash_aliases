@@ -20,7 +20,7 @@ alias ccls='cd; cls'
 
 #utils
 alias nst='netstat -tulpn'
-alias fm='LANG=us free --si -
+alias fm='LANG=us free --si -h'
 alias dumb='du -shx * | sort -rhk1'
 alias psc='ps aux --sort=-pcpu | head'
 alias psm='ps aux --sort=-pmem | head'
