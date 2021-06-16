@@ -16,14 +16,14 @@ alias gbm='git  checkout master'
 
 #clear
 alias cls='clear; ls'
-alias ccls='cd; cls'
+alias ccls='cd;  cls'
 
 #utils
 alias nst='netstat -tulpn'
 alias fm='LANG=us free --si -h'
 alias dumb='du -shx * | sort -rhk1'
-alias psc='ps aux --sort=-pcpu | head'
-alias psm='ps aux --sort=-pmem | head'
+alias psc='ps aux --sort=-pcpu | head -n11'
+alias psm='ps aux --sort=-pmem | head -n11'
 alias sysupdate='sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoremove -y; sudo apt-get autoclean -y'
 
 #cp with waiting animation
